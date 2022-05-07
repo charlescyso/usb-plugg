@@ -120,11 +120,13 @@ button:hover {
 }
 
 .main .container {
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .main .container:nth-of-type(2) {
     margin-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .box {
@@ -172,6 +174,7 @@ button:hover {
 .quote h3 {
     align-self: flex-end;
     font-size: 24px;
+    color: #1F2937;
 }
 
 .newsletter .container {
@@ -189,12 +192,14 @@ button:hover {
 
 .newsletter p:nth-of-type(1) {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .newsletter .sign-up {
     border-style: solid;
     border-radius: 12px;
     align-self: center;
+    white-space: nowrap;
 }
 
 .footer {
